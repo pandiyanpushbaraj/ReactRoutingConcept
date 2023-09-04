@@ -1,28 +1,4 @@
-
-
-h2
-{
-  font-size: 250px;
-  background: white;
-  background: linear-gradient(166deg,#FF0000 31%,#00FF00 16%,#0000FF 92%);
-   color: transparent;  
-  -webkit-background-clip: text;
-  background-size: 500% 500%;
-  animation: pandiyan 5s ease infinite;
-  }
-
-  @keyframes pandiyan
-  {
-      0%
-      {
-         background-position: 0%;
-      }
-      50%
-      {
-          background-position: 100%;
-      }
-      100%
-      {
-          background-position: 0%;
-      }
-  }
+ul li:hover
+ {
+    color: yellow;
+ }
